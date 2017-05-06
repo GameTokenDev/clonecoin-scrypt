@@ -1,8 +1,8 @@
 CloneCoin (CCN) - a 'faster' version of Litecoin which also uses scrypt
 as a proof of work scheme and is intended for microtransactions.
- - 15 seconds block targets: beat that MinCoin! ;)
- - 42 007 680 total coins
- - no subsidy within the first 3 days and after approximately 5 years;
+ - 60 seconds block targets: beat that MinCoin! ;)
+ - 42 000 000 total coins
+ - only 1 Block Reward/subsidy within the first 3 days and after approximately 5 years;
     in between: 4 coins per generated block
  - difficulty retargets every 0.35 days
  - currently peers are looked up over IRC only
@@ -18,9 +18,19 @@ So actually, this 'new' coin exists for the following reasons:
      for genesis block generation look at main.cpp)
  - allows me to experiment with coin parameters (in a private network)
 
-Finally, I only tested the command line server/tool 'CloneCoin' for the
-first 30 blocks. Credits go to the original authors/communities that
-created Bitcoin and Litecoin.
+ Credits go to the original authors/communities that created Bitcoin and Litecoin.
+ 
+ Wallets:
+
+Headless (no gui) :
+- Linux : https://github.com/crazysoldier/clonecoin-scrypt/blob/master/src/clonecoin (open on linux with './clonecoin &' and watch './clonecoin getinfo' or enable mining './clonecoin setgenerate true 50' (number of threads).
+- Mac
+- Windows
+
+Qt-Wallet (gui) :
+- Linux : https://github.com/crazysoldier/clonecoin-scrypt/blob/master/clonecoin-qt
+- Mac
+- Windows
 
 Development process
 ===================
