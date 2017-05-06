@@ -1,3 +1,5 @@
+![image](https://github.com/crazysoldier/clonecoin-scrypt/blob/master/src/qt/res/images/splash2.jpg)
+
 CloneCoin (CCN) - a 'faster' version of Litecoin which also uses scrypt
 as a proof of work scheme and is intended for microtransactions.
  - 60 seconds block targets: beat that MinCoin! ;)
